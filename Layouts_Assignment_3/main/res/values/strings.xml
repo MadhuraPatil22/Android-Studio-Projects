@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">MyApplication</string>
+
+    <string name="name_text"><b>Name :</b> Madhura Patil</string>
+    <string name="department_text"><b>Department :</b> Computer Science Engineering</string>
+    <string name="year_text"><b>Year :</b> Third Year</string>
+    <string name="division_text"><b>Division :</b> B</string>
+
+</resources>

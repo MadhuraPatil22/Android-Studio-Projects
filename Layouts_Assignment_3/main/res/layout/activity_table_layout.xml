@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="*"
+    android:padding="16dp">
+
+    <!-- Header Row -->
+    <TableRow>
+
+        <TextView
+            android:padding="8dp"
+            android:text="Name"
+            android:textStyle="bold" />
+
+        <TextView
+            android:padding="8dp"
+            android:text="Subject"
+            android:textStyle="bold" />
+
+        <TextView
+            android:padding="8dp"
+            android:text="Marks"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <!-- Row 1 -->
+    <TableRow>
+        <TextView
+            android:text="Madhura"
+            android:padding="8dp"/>
+
+        <TextView
+            android:text="Maths"
+            android:padding="8dp"/>
+
+        <TextView
+            android:text="95"
+            android:padding="8dp"/>
+    </TableRow>
+
+    <!-- Row 2 -->
+
+    <TableRow>
+        <TextView
+            android:text="Ruchi"
+            android:padding="8dp"/>
+
+        <TextView
+            android:text="Science"
+            android:padding="8dp"/>
+
+        <TextView
+            android:text="90"
+            android:padding="8dp"/>
+    </TableRow>
+
+</TableLayout>

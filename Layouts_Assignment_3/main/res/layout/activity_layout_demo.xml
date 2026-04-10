@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:gravity="center">
+
+        <!-- Heading -->
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Different Layouts"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Buttons -->
+        <Button
+            android:id="@+id/btnLinear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Linear Layout"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/btnRelative"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Relative Layout"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/btnConstraint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Constraint Layout"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/btnFrame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Frame Layout"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/btnTable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Table Layout"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/btnGrid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Grid Layout"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/btnAbsolute"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Absolute Layout"
+            android:layout_marginBottom="10dp"/>
+
+    </LinearLayout>
+</ScrollView>

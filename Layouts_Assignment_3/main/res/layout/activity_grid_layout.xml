@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="5"
+    android:columnCount="4"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <!-- Display -->
+    <TextView
+        android:id="@+id/display"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="4"
+        android:text="0"
+        android:textSize="28sp"
+        android:gravity="end"
+        android:padding="16dp"
+        android:background="#E0E0E0"/>
+
+    <!-- Buttons -->
+    <Button android:text="7" style="@style/btn" android:onClick="onButtonClick"/>
+    <Button android:text="8" style="@style/btn" android:onClick="onButtonClick"/>
+    <Button android:text="9" style="@style/btn" android:onClick="onButtonClick"/>
+    <Button android:text="/" style="@style/btn" android:onClick="onButtonClick"/>
+
+    <Button android:text="4" style="@style/btn" android:onClick="onButtonClick"/>
+    <Button android:text="5" style="@style/btn" android:onClick="onButtonClick"/>
+    <Button android:text="6" style="@style/btn" android:onClick="onButtonClick"/>
+    <Button android:text="*" style="@style/btn" android:onClick="onButtonClick"/>
+
+    <Button android:text="1" style="@style/btn" android:onClick="onButtonClick"/>
+    <Button android:text="2" style="@style/btn" android:onClick="onButtonClick"/>
+    <Button android:text="3" style="@style/btn" android:onClick="onButtonClick"/>
+    <Button android:text="-" style="@style/btn" android:onClick="onButtonClick"/>
+
+    <Button android:text="0" style="@style/btn" android:onClick="onButtonClick"/>
+    <Button android:text="C" style="@style/btn" android:onClick="onButtonClick"/>
+    <Button android:text="=" style="@style/btn" android:onClick="onButtonClick"/>
+    <Button android:text="+" style="@style/btn" android:onClick="onButtonClick"/>
+
+</GridLayout>
