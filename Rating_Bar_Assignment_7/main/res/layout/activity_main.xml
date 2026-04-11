@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Different Rating Types"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="30dp"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/btnRating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Product Review (Rating Bar)"/>
+
+    <Button
+        android:id="@+id/btnDownload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="File Download (Progress Bar)"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnLoading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data Fetching (Loading)"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>
