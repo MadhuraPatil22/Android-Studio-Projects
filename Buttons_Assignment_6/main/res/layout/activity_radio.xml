@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <!-- Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mode of Payment"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Radio Group -->
+    <RadioGroup
+        android:id="@+id/radioGroupPayment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioUPI"
+            android:text="UPI"/>
+
+        <RadioButton
+            android:id="@+id/radioGPay"
+            android:text="Google Pay"/>
+
+        <RadioButton
+            android:id="@+id/radioPhonePe"
+            android:text="PhonePe"/>
+
+        <RadioButton
+            android:id="@+id/radioPaytm"
+            android:text="Paytm"/>
+
+        <RadioButton
+            android:id="@+id/radioCard"
+            android:text="Credit/Debit Card"/>
+    </RadioGroup>
+
+    <!-- Submit Button -->
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
