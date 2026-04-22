@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#EDE7F6"
+    android:padding="20dp">
+
+    <!-- CURRENT TIME (smaller) -->
+    <TextView
+        android:id="@+id/currentTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="03:27 PM"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#4A3F7A"
+        android:gravity="center"/>
+
+    <!-- REMINDER TIME (bigger & darker) -->
+    <TextView
+        android:id="@+id/reminderTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No reminder set"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="#2E1F5E"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Task -->
+    <EditText
+        android:id="@+id/task"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Task Name"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:layout_marginBottom="10dp"/>
+
+    <!-- Buttons -->
+    <Button
+        android:id="@+id/selectDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Date"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/selectTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Time"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/setReminder"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Set Reminder"
+        android:textColor="#FFF"
+        android:background="#6A5ACD"/>
+
+</LinearLayout>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EDE7F6">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registration Form"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- Name -->
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Name"
+            android:textColor="#000000"
+            android:textColorHint="#000000"/>
+
+        <!-- Roll -->
+        <EditText
+            android:id="@+id/roll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Roll No"
+            android:inputType="number"
+            android:textColor="#000000"
+            android:textColorHint="#000000"/>
+
+        <!-- Age -->
+        <EditText
+            android:id="@+id/age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Age"
+            android:inputType="number"
+            android:textColor="#000000"
+            android:textColorHint="#000000"/>
+
+        <!-- Department -->
+        <EditText
+            android:id="@+id/department"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Department"
+            android:textColor="#000000"
+            android:textColorHint="#000000"/>
+
+        <!-- Email -->
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Email"
+            android:inputType="textEmailAddress"
+            android:textColor="#000000"
+            android:textColorHint="#000000"/>
+
+        <!-- Phone -->
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Phone No"
+            android:inputType="phone"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- Buttons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:text="Submit"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/button_bg"
+                android:layout_marginEnd="10dp"/>
+
+            <Button
+                android:id="@+id/load"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:text="Load"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/button_bg"/>
+        </LinearLayout>
+
+        <!-- Output Table -->
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:id="@+id/result"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="14sp"/>
+        </HorizontalScrollView>
+
+    </LinearLayout>
+</ScrollView>
