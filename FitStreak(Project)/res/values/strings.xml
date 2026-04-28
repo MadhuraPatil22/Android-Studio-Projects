@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">FitStreak</string>
+    <string name="login">Login</string>
+    <string name="signup">Sign Up</string>
+    <string name="google_login">Login with Google</string>
+    <string name="no_account">Don\'t have an account? Sign up</string>
+    <string name="have_account">Already have an account? Login</string>
+    <string name="done_for_day">Done for the day</string>
+    <string name="congrats_message">Congratulations! You have completed today\'s exercises.</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="enter_exercise">Enter exercise name</string>
+    <string name="add">Add</string>
+
+    <string-array name="predefined_exercises">
+        <item>Surya Namaskar</item>
+        <item>Push-ups</item>
+        <item>Squats</item>
+        <item>Plank</item>
+        <item>Lunges</item>
+        <item>Burpees</item>
+        <item>Jumping Jacks</item>
+        <item>Mountain Climbers</item>
+        <item>Crunches</item>
+        <item>Pull-ups</item>
+        <item>Bench Press</item>
+        <item>Deadlifts</item>
+        <item>Overhead Press</item>
+        <item>Bicep Curls</item>
+        <item>Tricep Dips</item>
+        <item>Leg Press</item>
+        <item>Lat Pulldowns</item>
+        <item>Sit-ups</item>
+        <item>Russian Twists</item>
+        <item>Bicycle Crunches</item>
+    </string-array>
+</resources>
